@@ -1,9 +1,14 @@
 from .pages.product_page import ProductPage
 import time
+import pytest
 
 
-def test_guest_can_add_product_to_basket(browser):
-    link = "http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear"
+
+@pytest.mark.parametrize('link', [f"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer{i}" if i != 7 else pytest.param(f"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer{i}" ,marks=pytest.mark.xfail)  for i in range(10)])#,pytest.param(f"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer{i}" ,marks=pytest.mark.xfail) )
+def test_guest_can_add_product_to_basket(browser,link):
+    #link = "http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear"
+    #link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=newYear2019"
+    #link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     product_page = ProductPage(browser,link)
     product_page.open()
     

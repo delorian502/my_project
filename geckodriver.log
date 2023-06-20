@@ -1,0 +1,160 @@
+1687267186420	geckodriver	INFO	Listening on 127.0.0.1:52848
+1687267189470	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52849" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Dvoeg\\AppData\\Local\\Temp\\rust_mozprofilePWkoEg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687267190032	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687267190042	Marionette	INFO	Listening on port 52866
+Read port: 52866
+WebDriver BiDi listening on ws://127.0.0.1:52849
+1687267190285	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52849/devtools/browser/b06e91ac-6a1e-43a3-8f8b-d633b26f48c5
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer0, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://selenium1py.pythonanywhere.com."
+1687267195627	Marionette	INFO	Stopped listening on port 52866
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer0, line 715: ReferenceError: oscar is not defined
+Dynamically enable window occlusion 1
+1687267202954	geckodriver	INFO	Listening on 127.0.0.1:52927
+1687267205995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52928" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Dvoeg\\AppData\\Local\\Temp\\rust_mozprofileJV6Kbu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687267206488	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687267206495	Marionette	INFO	Listening on port 52940
+Read port: 52940
+WebDriver BiDi listening on ws://127.0.0.1:52928
+1687267206673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52928/devtools/browser/2df71699-98cf-4dac-bed4-eca9a1b8fc9d
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer1, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://selenium1py.pythonanywhere.com."
+1687267211426	Marionette	INFO	Stopped listening on port 52940
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer1, line 715: ReferenceError: oscar is not defined
+Dynamically enable window occlusion 1
+1687267218775	geckodriver	INFO	Listening on 127.0.0.1:52997
+1687267221848	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52998" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Dvoeg\\AppData\\Local\\Temp\\rust_mozprofile9xA98g"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687267222337	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687267222343	Marionette	INFO	Listening on port 53009
+Read port: 53009
+WebDriver BiDi listening on ws://127.0.0.1:52998
+1687267222523	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52998/devtools/browser/6fa99c51-5a26-4f64-918c-2634c61d9e1c
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer2, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://selenium1py.pythonanywhere.com."
+1687267227222	Marionette	INFO	Stopped listening on port 53009
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer2, line 715: ReferenceError: oscar is not defined
+Dynamically enable window occlusion 1
+1687267234765	geckodriver	INFO	Listening on 127.0.0.1:53068
+1687267237833	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53069" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Dvoeg\\AppData\\Local\\Temp\\rust_mozprofilewczcjK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687267238332	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687267238340	Marionette	INFO	Listening on port 53082
+Read port: 53082
+WebDriver BiDi listening on ws://127.0.0.1:53069
+1687267238523	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53069/devtools/browser/337326f2-3390-46a4-a3ac-a0fec9dc7e54
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer3, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://selenium1py.pythonanywhere.com."
+1687267243908	Marionette	INFO	Stopped listening on port 53082
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer3, line 715: ReferenceError: oscar is not defined
+Dynamically enable window occlusion 1
+1687267251438	geckodriver	INFO	Listening on 127.0.0.1:53137
+1687267254491	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53138" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Dvoeg\\AppData\\Local\\Temp\\rust_mozprofileMJaDV1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687267254979	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687267254987	Marionette	INFO	Listening on port 53151
+Read port: 53151
+WebDriver BiDi listening on ws://127.0.0.1:53138
+1687267255194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53138/devtools/browser/de5c588b-ddb1-4553-81bf-f3d0c797643e
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer4, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://selenium1py.pythonanywhere.com."
+1687267260447	Marionette	INFO	Stopped listening on port 53151
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer4, line 715: ReferenceError: oscar is not defined
+Dynamically enable window occlusion 1
+1687267267890	geckodriver	INFO	Listening on 127.0.0.1:53208
+1687267270960	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53209" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Dvoeg\\AppData\\Local\\Temp\\rust_mozprofileGD5HJQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687267271445	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687267271452	Marionette	INFO	Listening on port 53221
+Read port: 53221
+WebDriver BiDi listening on ws://127.0.0.1:53209
+1687267271631	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53209/devtools/browser/f171e2c0-3585-408a-ae21-8295bb4ec59f
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer5, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://selenium1py.pythonanywhere.com."
+1687267276619	Marionette	INFO	Stopped listening on port 53221
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer5, line 715: ReferenceError: oscar is not defined
+Dynamically enable window occlusion 1
+1687267284009	geckodriver	INFO	Listening on 127.0.0.1:53276
+1687267287063	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53277" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Dvoeg\\AppData\\Local\\Temp\\rust_mozprofilev4e6lE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687267287547	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687267287554	Marionette	INFO	Listening on port 53290
+Read port: 53290
+WebDriver BiDi listening on ws://127.0.0.1:53277
+1687267287739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53277/devtools/browser/fab90204-e258-4da5-9425-ab5b72270898
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer6, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://selenium1py.pythonanywhere.com."
+1687267294321	Marionette	INFO	Stopped listening on port 53290
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer6, line 715: ReferenceError: oscar is not defined
+Dynamically enable window occlusion 1
+1687267301634	geckodriver	INFO	Listening on 127.0.0.1:53344
+1687267304714	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53345" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Dvoeg\\AppData\\Local\\Temp\\rust_mozprofilev2diCt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687267305192	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687267305199	Marionette	INFO	Listening on port 53356
+Read port: 53356
+WebDriver BiDi listening on ws://127.0.0.1:53345
+1687267305384	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53345/devtools/browser/c313933d-43e4-4700-9fc4-7cbf09c5bac6
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer7, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://selenium1py.pythonanywhere.com."
+1687267311556	Marionette	INFO	Stopped listening on port 53356
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer7, line 715: ReferenceError: oscar is not defined
+Dynamically enable window occlusion 1
+1687267318968	geckodriver	INFO	Listening on 127.0.0.1:53412
+1687267322021	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53413" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Dvoeg\\AppData\\Local\\Temp\\rust_mozprofileYNnlGz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687267322506	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687267322512	Marionette	INFO	Listening on port 53424
+Read port: 53424
+WebDriver BiDi listening on ws://127.0.0.1:53413
+1687267322708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53413/devtools/browser/3637aa4f-9d81-4272-b9ed-5abf59f3362f
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer8, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://selenium1py.pythonanywhere.com."
+1687267327683	Marionette	INFO	Stopped listening on port 53424
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer8, line 715: ReferenceError: oscar is not defined
+Dynamically enable window occlusion 1
+1687267335207	geckodriver	INFO	Listening on 127.0.0.1:53481
+1687267338289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53482" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Dvoeg\\AppData\\Local\\Temp\\rust_mozprofilesVaImW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687267338766	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687267338773	Marionette	INFO	Listening on port 53494
+Read port: 53494
+WebDriver BiDi listening on ws://127.0.0.1:53482
+1687267338992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53482/devtools/browser/0f5a6b14-efa8-4263-ab40-c43b11e27dc4
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer9, line 614: ReferenceError: oscar is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://selenium1py.pythonanywhere.com."
+1687267343813	Marionette	INFO	Stopped listening on port 53494
+JavaScript error: http://selenium1py.pythonanywhere.com/es/catalogue/coders-at-work_207/?promo=offer9, line 715: ReferenceError: oscar is not defined
+Dynamically enable window occlusion 1
