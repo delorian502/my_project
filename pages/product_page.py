@@ -22,9 +22,15 @@ class ProductPage(BasePage):
         assert t2 in t1 , f"text {t1} and {t2} don't equals"
         
     def compare_prise_product_and_prise_in_basket(self):
-        prise_in_page_product = self.browser.find_element(*ProductPageLocators.price_product)     
-        prise_in_basket = self.browser.find_element(*ProductPageLocators.price_in_basket)    
-        assert prise_in_page_product in prise_in_basket , f"prise product {prise_in_page_product} and prise in basket {prise_in_basket} don't equal"
-              
+        prise_in_page_product = self.browser.find_element(*ProductPageLocators.price_product).text    
+        prise_in_basket = self.browser.find_element(*ProductPageLocators.price_in_basket).text    
+        assert  prise_in_basket in prise_in_page_product  , f"prise product {prise_in_page_product} and prise in basket {prise_in_basket} don't equal"
+        
+    def should_not_be_success_message(self):
+        assert self.is_not_element_present(*ProductPageLocators.SUCCESS_MESSAGE),  "Success message is presented, but should not be" 
+        
+    def should_not_ne_seccess_massage_all_time(self):
+        assert self.is_disappeared(*ProductPageLocators.SUCCESS_MESSAGE), "Success message is presented, but should not be"      
+        
         
     
