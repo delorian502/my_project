@@ -1,31 +1,60 @@
 from .pages.product_page import ProductPage
 from .pages.basket_page import BasketPage
 from .pages.base_page import BasePage
+from .pages.login_page import LoginPage
 import time
 import pytest
 
 
-
-@pytest.mark.parametrize('link', [f"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer{i}" if i != 7 else pytest.param(f"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer{i}" ,marks=pytest.mark.xfail)  for i in range(1)])#,pytest.param(f"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer{i}" ,marks=pytest.mark.xfail) )
-def test_guest_can_add_product_to_basket(browser,link):
-    #link = "http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear"
-    #link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=newYear2019"
-    #link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
-    product_page = ProductPage(browser,link)
-    product_page.open()
+class TestUserAddToBasketFromProductPage():
+    @pytest.fixture(scope="function", autouse=True)
+    def setup(self,browser):
+        link = "http://selenium1py.pythonanywhere.com"
+        
+        
+        page = BasePage(browser,link)
+        page.open()
+        
+        page.go_to_login_page()
+        page = LoginPage(browser,browser.current_url)
+        page.register_new_user()
+        page = BasePage(browser,browser.current_url)
+        page.should_be_authorized_user()
+       
+        
     
     
     
-    product_page.should_be_button_add_product_to_basket()
-    product_page.should_add_product_to_basket()
+    #@pytest.mark.parametrize('link', [f"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer{i}" if i != 7 else pytest.param(f"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer{i}" ,marks=pytest.mark.xfail)  for i in range(1)])#,pytest.param(f"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer{i}" ,marks=pytest.mark.xfail) )
+    def test_user_can_add_product_to_basket(self,browser):
+        #link = "http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear"
+        #link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=newYear2019"
+        link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer1"
+        product_page = ProductPage(browser,link)
+        product_page.open()
     
-    product_page.should_alert_be_and_calculate()
+    
+    
+        product_page.should_be_button_add_product_to_basket()
+        product_page.should_add_product_to_basket()
+    
+        product_page.should_alert_be_and_calculate()
     
     
     
-    product_page.check_add_name_product()
+        product_page.check_add_name_product()
     
-    product_page.compare_prise_product_and_prise_in_basket()
+        product_page.compare_prise_product_and_prise_in_basket()
+        
+    #@pytest.mark.parametrize('link', [f"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer{i}" for i in range(1) ]) 
+    def test_user_cant_see_success_message(self,browser):
+        link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer1"
+        product_page = ProductPage(browser,link)
+        product_page.open()
+        product_page.should_not_be_success_message()    
+        
+        
+        
     
 @pytest.mark.parametrize('link', [pytest.param(f"http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer{i}",marks=pytest.mark.xfail) for i in range(1) ])    
 def test_guest_cant_see_success_message_after_adding_product_to_basket(browser,link):
