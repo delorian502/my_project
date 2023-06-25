@@ -11,8 +11,6 @@ class BasketPage(BasePage):
         
     def message_about_basket_empty(self):
         text =  self.browser.find_element(*BasketPageLocators.ZERO_PRODUCTS)
-        
-        
         assert text , "should be message about zero products in basket"
     
 

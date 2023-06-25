@@ -10,7 +10,18 @@ class LoginPageLocators():
     
     should_be_login_form = (By.CSS_SELECTOR, "#login_form")
     
-    should_be_register_form = (By.CSS_SELECTOR, "#register_form")     
+    should_be_register_form = (By.CSS_SELECTOR, "#register_form")  
+    
+    should_be_email_input_in_register_form = (By.CSS_SELECTOR, "#register_form [type='email']")
+    
+    should_be_password_first_input_in_password_form = (By.CSS_SELECTOR, "#id_registration-password1")
+    
+    should_be_password_second_input_in_password_form = (By.CSS_SELECTOR, "#id_registration-password2")
+    
+    should_be_button_register_account_and_login = (By.CSS_SELECTOR, '[value="Register"]')
+    
+    
+                               
     
 class ProductPageLocators():
     should_be_button_add_product_to_basket_form = (By.CSS_SELECTOR,"#add_to_basket_form .btn")
